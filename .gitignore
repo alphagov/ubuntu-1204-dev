@@ -1,0 +1,6 @@
+.vagrant
+modules/*
+.tmp
+.librarian
+.ruby-version
+Vagrantfile.local
