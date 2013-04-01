@@ -10,7 +10,7 @@ Vagrant::Config.run do |config|
   config.vm.customize        ["modifyvm", :id, "--rtcuseutc", "on"]
   config.vm.customize        ['modifyvm', :id, '--memory', 1024]
   config.vm.customize        ['modifyvm', :id, '--cpus', 2]
-  config.vm.customize        ['modifyvm', :id, '--name', 'precise_vm']
+  config.vm.customize        ['modifyvm', :id, '--name', 'ubuntu-1204-dev']
   config.vm.host_name      = 'vm.dev.services.gov.uk'
   if File.exist? 'Vagrantfile.local'
     instance_eval File.read('Vagrantfile.local'), 'Vagrantfile.local'
