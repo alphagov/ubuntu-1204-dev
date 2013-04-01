@@ -4,7 +4,7 @@ This repository contains a bare-bones environment, which will help you bootstrap
 
 ##Assumptions
 1. You have a sane Development platform. At GDS, we use MacOSX, where this environment has been tested. It might work with modifications on Linux or Windows, although we have not tested this.
-2. You have a sane Ruby environment, with the `rake` command available.
+2. You have a sane Ruby 1.9.3 environment (this uses `sample` which is not in Ruby 1.8.7), with the `rake` command available.
 3. You have installed Oracle VirtualBox (version 4.2.6 or above)
 4. You have forked this repository into your own Github organisation (or Github Enterprise environment), so that you can commit to it.
 
