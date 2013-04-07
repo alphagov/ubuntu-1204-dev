@@ -12,7 +12,7 @@ This repository contains a bare-bones environment, which will help you bootstrap
 
 ## 1. Decide on your "development" domain.
 
-This repository assumes a development domain of `dev.services.gov.uk` - you should make appropriate adjustments to the three relevant lines in the `Vagrantfile` and commit them, if you do not intend to develop using this domain.
+This repository assumes a development domain of `dev.service.gov.uk` - you should make appropriate adjustments to the three relevant lines in the `Vagrantfile` and commit them, if you do not intend to develop using this domain.
 
 ## 2. Bring up a development VM.
 
